@@ -24,8 +24,8 @@ repositories {
 }
 
 azurefunctions {
-    resourceGroup = '450-2c3c34bf-deploy-and-run-your-first-azure-funct'
-    appName = 'testsbs204'
+    resourceGroup = 'java-functions-group'
+    appName = 'azure-functions-sample'
     pricingTier = 'Consumption'
     region = 'westus'
     runtime {
